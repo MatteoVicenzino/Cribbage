@@ -1,5 +1,5 @@
 # CRIBBAGE PROJECT 
-partecipants: Alessio Martucci, Margherita Necchi, Matteo Vicenzino
+members: Alessio Martucci, Margherita Necchi, Matteo Vicenzino
 
 We want to write a Java program that computes the score of a Cribbage hand consisting of four hand cards and a starter card.
 
