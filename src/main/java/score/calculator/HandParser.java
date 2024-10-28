@@ -3,7 +3,9 @@ package score.calculator;
 public class HandParser {
 
     public Hand parse(String handAsString) {
-        return new Hand(handAsString);
+        Character starterCardRank = handAsString.charAt(8);
+        Character starterCardSuite = handAsString.charAt(9);
+        return new Hand(starterCardRank, starterCardSuite);
     }
 }
 

@@ -5,9 +5,9 @@ public class Hand {
     public static Character starterCardRank;
     public static Character starterCardSuite;
 
-    public Hand(String handAsString) {
-        this.starterCardRank = handAsString.charAt(8);
-        this.starterCardSuite = handAsString.charAt(9);
+    public Hand(Character starterCardRank, Character starterCardSuite) {
+        this.starterCardRank = starterCardRank;
+        this.starterCardSuite = starterCardSuite;
     }
 
     public String handCards() {
