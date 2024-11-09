@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6beaf76b-334d-4197-b3b7-8b0b15bad661" name="Changes" comment="update to match all files in the course repo, to work on the assignment">
-      <change afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/Flush.java" afterDir="false" />
+    <list default="true" id="6beaf76b-334d-4197-b3b7-8b0b15bad661" name="Changes" comment="first test implementation, passed by faking it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sdm/running/example/CribbageHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sdm/running/example/CribbageHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sdm/running/example/Flush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/Flush.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.ParseHand.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ParseHand.withStarterCardFiveOfClubs.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tests in 'Cribbage.test'.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/matteovicenzino/IdeaProjects/Cribbage&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.FifteenTwosInHand.executor": "Run",
+    "Gradle.Flush.executor": "Run",
+    "Gradle.Flush.flushWithDifferentStarter.executor": "Run",
+    "Gradle.Flush.oneCombinationOfThreeCards.executor": "Run",
+    "Gradle.ParseHand.executor": "Run",
+    "Gradle.ParseHand.withStarterCardFiveOfClubs.executor": "Run",
+    "Gradle.Tests in 'Cribbage.test'.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/matteovicenzino/IdeaProjects/Cribbage",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="score.calculator" />
@@ -75,7 +79,31 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Flush">
+  <component name="RunManager" selected="Gradle.Tests in 'Cribbage.test'">
+    <configuration name="FifteenTwosInHand" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;sdm.running.example.FifteenTwosInHand&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="Flush" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -100,7 +128,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ParseHand" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Flush.flushWithDifferentStarter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;score.calculator.ParseHand&quot;" />
+            <option value="&quot;sdm.running.example.Flush.flushWithDifferentStarter&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -124,7 +152,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ParseHand.withStarterCardFiveOfClubs" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Flush.oneCombinationOfThreeCards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +165,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;score.calculator.ParseHand.withStarterCardFiveOfClubs&quot;" />
+            <option value="&quot;sdm.running.example.Flush.oneCombinationOfThreeCards&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,10 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Flush" />
         <item itemvalue="Gradle.Tests in 'Cribbage.test'" />
-        <item itemvalue="Gradle.ParseHand" />
-        <item itemvalue="Gradle.ParseHand.withStarterCardFiveOfClubs" />
+        <item itemvalue="Gradle.Flush" />
+        <item itemvalue="Gradle.Flush.flushWithDifferentStarter" />
+        <item itemvalue="Gradle.FifteenTwosInHand" />
+        <item itemvalue="Gradle.Flush.oneCombinationOfThreeCards" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731159070229</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="first test implementation, passed by faking it">
+      <option name="closed" value="true" />
+      <created>1731171221678</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731171221678</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +276,7 @@
     <MESSAGE value="First Class" />
     <MESSAGE value="tests on card parsing, first test on hand parsing  (to review)" />
     <MESSAGE value="update to match all files in the course repo, to work on the assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to match all files in the course repo, to work on the assignment" />
+    <MESSAGE value="first test implementation, passed by faking it" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test implementation, passed by faking it" />
   </component>
 </project>

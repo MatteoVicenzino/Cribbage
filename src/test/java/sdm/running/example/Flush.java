@@ -10,8 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class Flush {
 
     @Test
-    //@Disabled
-    void oneCombinationOfThreeCards() {
+    void flushWithDifferentStarter() {
         CribbageHand hand = new CribbageHand(
                 Arrays.asList(
                         new Card('0', '♥'),

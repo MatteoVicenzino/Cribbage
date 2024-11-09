@@ -33,7 +33,16 @@ public class CribbageHand {
         return 0;
     }
 
+
     public int flush() {
+
+        Card firstCard = handCards.getFirst();
+
+        for (Card currentCard : handCards) {
+            if (!currentCard.suite().equals(firstCard.suite())) {
+                return 0;
+            }
+        }
 
         return 4;
     }
@@ -42,6 +51,7 @@ public class CribbageHand {
     public int score() {
         return hasNobs() ? 1 : 0;
     }
+
 
     @Override
     public final boolean equals(Object o) {
