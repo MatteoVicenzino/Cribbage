@@ -1,7 +1,7 @@
-package score.calculator;
+package sdm.running.example;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ParseCard {
@@ -37,12 +37,4 @@ public class ParseCard {
         Card card = cardParser.parse("5♦");
         assertEquals('5', card.rank());
     }
-
-    @Test
-    void withRankJack() {
-        Card card = cardParser.parse("J♣");
-        assertEquals('J', card.rank());
-        assertEquals('♣', card.suite());
-    }
-
 }

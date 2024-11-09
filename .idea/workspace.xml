@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6beaf76b-334d-4197-b3b7-8b0b15bad661" name="Changes" comment="tests on card parsing, first test on hand parsing  (to review)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sdm/running/example/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sdm/running/example/CribbageHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sdm/running/example/CribbageHandParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sdm/running/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/FifteenTwosInHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/Nobs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/ParseCribbageHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/RunsInHand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/Score.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/score/calculator/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/score/calculator/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/score/calculator/HandParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/score/calculator/HandParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/score/calculator/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/score/calculator/CardParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sdm/running/example/CardParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/score/calculator/Hand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/score/calculator/HandParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/score/calculator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/score/calculator/ParseCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/ParseCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/score/calculator/ParseHand.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,22 +67,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.ParseHand.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ParseHand.withStarterCardFiveOfClubs.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Tests in 'Cribbage.test'.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.ParseHand.executor": "Run",
+    "Gradle.ParseHand.withStarterCardFiveOfClubs.executor": "Run",
+    "Gradle.Tests in 'Cribbage.test'.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/matteovicenzino/IdeaProjects/Cribbage",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="score.calculator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.Tests in 'Cribbage.test'">
