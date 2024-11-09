@@ -22,4 +22,18 @@ public class Flush {
         );
         assertEquals(4, hand.flush());
     }
+
+    @Test
+    void flushWithSameStarter() {
+        CribbageHand hand = new CribbageHand(
+                Arrays.asList(
+                        new Card('0', '♥'),
+                        new Card('J', '♥'),
+                        new Card('K', '♥'),
+                        new Card('A', '♥')
+                ),
+                new Card('9', '♥')
+        );
+        assertEquals(5, hand.flush());
+    }
 }

@@ -37,6 +37,7 @@ public class CribbageHand {
     public int flush() {
 
         Card firstCard = handCards.getFirst();
+        int starterValue = 0;
 
         for (Card currentCard : handCards) {
             if (!currentCard.suite().equals(firstCard.suite())) {
@@ -44,7 +45,10 @@ public class CribbageHand {
             }
         }
 
-        return 4;
+        if (starterCard.suite().equals(firstCard.suite())){
+            starterValue += 1;
+        }
+        return 4 + starterValue;
     }
 
 

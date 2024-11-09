@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6beaf76b-334d-4197-b3b7-8b0b15bad661" name="Changes" comment="first test implementation, passed by faking it">
+    <list default="true" id="6beaf76b-334d-4197-b3b7-8b0b15bad661" name="Changes" comment="first test solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sdm/running/example/CribbageHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sdm/running/example/CribbageHand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sdm/running/example/Flush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sdm/running/example/Flush.java" afterDir="false" />
@@ -257,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731171221678</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first test solved">
+      <option name="closed" value="true" />
+      <created>1731175624018</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731175624018</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +285,7 @@
     <MESSAGE value="tests on card parsing, first test on hand parsing  (to review)" />
     <MESSAGE value="update to match all files in the course repo, to work on the assignment" />
     <MESSAGE value="first test implementation, passed by faking it" />
-    <option name="LAST_COMMIT_MESSAGE" value="first test implementation, passed by faking it" />
+    <MESSAGE value="first test solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test solved" />
   </component>
 </project>
