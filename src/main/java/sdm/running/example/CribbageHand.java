@@ -33,6 +33,12 @@ public class CribbageHand {
         return 0;
     }
 
+    public int flush() {
+
+        return 4;
+    }
+
+
     public int score() {
         return hasNobs() ? 1 : 0;
     }
