@@ -36,7 +36,7 @@ public class CribbageHand {
 
     public int flush() {
 
-        Card firstCard = handCards.getFirst();
+        Card firstCard = handCards.get(0);
         int starterValue = 0;
 
         for (Card currentCard : handCards) {
